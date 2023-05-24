@@ -64,7 +64,7 @@
                 <li class="uk-parent uk-open">
                     <a href="#"><img src="./assets/img/menu-items/main.png" />ข้อมูลหลัก</a>
                     <ul class="uk-nav-sub">
-                        <li class="uk-active"><a href="MS001.html">MS001 -จัดการข้อมูลบริษัท</a></li>
+                        <li><a href="MS001.html">MS001 -จัดการข้อมูลบริษัท</a></li>
                         <li><a href="MS101.html">MS101 -จัดการข้อมูลสินค้า</a></li>
                         <li><a href="MS102.html">MS102 -จัดการข้อมูลประเภทสินค้า</a></li>
                         <li><a href="MS103.html">MS103 -จัดการข้อมูลหน่วยนับ</a></li>
@@ -72,7 +72,7 @@
                         <li><a href="MS105.html">MS105 -จัดการข้อมูลกลุ่มตัวเลือก</a></li>
                         <li><a href="MS106.html">MS106 -จัดการข้อมูลขนาดยาง</a></li>
                         <li><a href="MS107.html">MS107 -จัดการข้อมูล PCD ของล้อ</a></li>
-                        <li><a href="MS201.html">MS201 -จัดการข้อมูล จังหวัด, อำเภอ, ตำบล</a></li>
+                        <li class="uk-active"><a href="MS201.html">MS201 -จัดการข้อมูล จังหวัด, อำเภอ, ตำบล</a></li>
                         <li><a href="SA300.html">SA300 -จัดการข้อมูล รุ่นรถ</a></li>
                         <li><a href="CS101.html">CS101 -กำหนดคำถามลูกค้าหลังใช้บริการ</a></li>
                     </ul>
@@ -168,10 +168,10 @@
     <section class="scrollspy uk-light">
         <!-- <h5>Links on this page</h5> -->
         <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true">
-            <li class="spy-item"><a href="#heading" >หน้าหลัก</a></li>
-            <li class="spy-item"><a href="#article-1">แก้ไขข้อมูล</a></li>
-            <li class="spy-item"><a href="#article-2">ลบข้อมูล</a></li>
-            
+            <li class="spy-item"><a href="#heading">หน้าหลัก</a></li>
+            <li class="spy-item"><a href="#article-1">เพิ่ม - ตำบล</a></li>
+            <li class="spy-item"><a href="#article-2">แก้ไข - ตำบล</a></li>
+
             <li style="margin-top: 50px;"></li>
 
         </ul>
@@ -180,69 +180,83 @@
     <main class="uk-light uk-background-secondary">
         <!-- Heading Article -->
         <h1 id="heading"><a href="#heading">หน้าหลัก</a></h1>
-        <p>1) เปิดโปรแกรม ข้อมูลหลัก > (MS001) จัดการข้อมูลบริษัท</p>
+
+        <p>1) เปิดโปรแกรม ข้อมูลหลัก > (MS201) จัดการข้อมูล จังหวัด, อำเภอ, ตำบล</p>
+
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/MS001_1.png" alt="">
+                    <img src="assets/img/DocPic/MS201_1.png" alt="">
                     <p></p>
-                    <img src="assets/img/DocPic/MS001_2.png" alt="">
+                    <img src="assets/img/DocPic/MS201_2.png" alt="">
                 </div>
             </div>
         </div>
-        <p>2) แสดงรายชื่อสาขาบริษัท</p>
-        <p>3) แสดงข้อมูลสาขาบริษัทในรายชื่อที่เลือกจากหมายเลข 2</p>
+
+        <p>2) ตารางแสดงข้อมูล จังหวัด, อำเภอ, ตำบล</p>
+        <p>3) รายละเอียดของ จังหวัด, อำเภอ, ตำบล</p>
         <p>4) แถบเมนูคำสั่งที่ใช้ในการจัดการ</p>
+
         <hr style="margin: 25px;">
 
         <!-- Article 1 -->
-        <h2 id="article-1"><a href="#article-1">แก้ไขข้อมูล</a></h2>
+        <h2 id="article-1"><a href="#article-1">เพิ่ม - ตำบล</a></h2>
+
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/MS001_3.png" alt="">
+                    <img src="assets/img/DocPic/MS201_3.png" alt="">
                 </div>
             </div>
         </div>
-        <p>1) เลือกสาขาบริษัทที่ต้องการแก้ไข</p>
-        <p>2) กดปุ่ม “แก้ไข” บนแถบเมนูคำสั่ง</p>
-        <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
-            <div class="uk-text-center">
-                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/MS001_5.png" alt="">
-                </div>
-            </div>
-        </div>
-        <p>3) เลือกเมนูที่จะแก้ไข</p>
-        <p>4) รายละเอียดที่สามารถแก้ไขได้</p>
-        <p>5) บันทึกข้อมูลที่จะแก้ไขโดยการกดปุ่ม “บันทึก” หรือกดปุ่ม “ยกเลิก” หากต้องการที่จะยกเลิกการแก้ไข</p>
-        <p>
-            6) จากข้อ 5 หากท่านกดปุ่มบันทึก จะปรากฏหน้าต่างยืนยันการบันทึก ให้กดปุ่ม “Yes” เพื่อยืนยันการ
-            บันทึกข้อมูล หรือกด “No” หากต้องการกลับไปแก้ไขข้อมูล
-        </p>
+
+        <p>1) กดเลือก จังหวัด ที่ต้องการเพิ่มตำบล</p>
+        <p>2) กดเลือก อำเภอ ที่ต้องการเพิ่มตำบล</p>
+        <p>3) กดปุ่ม “เพิ่ม” บนแถบเมนูคำสั่ง</p>
+        <p>4) กรอกชื่อตำบล</p>
+        <p>5) กดปุ่ม “บันทึก” บนแถบเมนูคำสั่ง</p>
+        <p>6) กดปุ่ม “OK” เพื่อยืนยันการบันทึก</p>
+        <p>7) ชื่อตำบลใหม่ที่เพิ่มจะปรากฏในตาราง</p>
+
         <hr style="margin: 25px;">
 
         <!-- Article 2 -->
-        <h2 id="article-2"><a href="#article-2">ลบข้อมูล</a></h2>
+        <h2 id="article-2"><a href="#article-2">แก้ไข - ตำบล</a></h2>
+
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/MS001_6.png" alt="">
+                    <img src="assets/img/DocPic/MS201_4.png" alt="">
                 </div>
             </div>
         </div>
-        <p>1) เลือกสาขาบริษัทที่ต้องการลบข้อมูล</p>
-        <p>2) กดปุ่ม “ลบ” บนแถบเมนูคำสั่ง</p>
-        <p>3) กดปุ่ม “Yes” หากต้องการยืนยันการลบข้อมูล หรือกด “No” หากต้องการยกเลิก</p>
-        <hr style="margin: 25px;">
 
+        <p>1) กดเลือก จังหวัด ที่ต้องการเพิ่มตำบล</p>
+        <p>2) กดเลือก อำเภอ ที่ต้องการเพิ่มตำบล</p>
+        <p>3) กดเลือกตำบลที่ต้องการแก้ไข</p>
+        <p>4) กดปุ่ม “แก้ไข” บนแถบเมนูคำสั่ง</p>
+        <p>5) แก้ไขชื่อตำบล</p>
+        <p>6) กดปุ่ม “บันทึก” บนแถบเมนูคำสั่ง</p>
+        <p>7) กดปุ่ม “OK” เพื่อยืนยันการบันทึก</p>
+
+        <hr style="margin: 25px;">
 
         <!-- Next and Prvious navigation started -->
         <div class="buttons">
-            <a class="button button-right" href="MS101.html">
+            <a class="button button-left" href="MS107.html">
+                <div>
+                    <span href="#" class="uk-icon-button" uk-icon="icon: arrow-left; ratio: 2"></span>
+                </div>
+                <div>
+                    <p>Previous</p>
+                    <h3>>MS107 -จัดการข้อมูล PCD ของล้อ</h3>
+                </div>
+            </a>
+
+            <a class="button button-right" href="SA300.html">
                 <div>
                     <p>Next</p>
-                    <h3>MS101 - จัดการข้อมูลสินค้า</h3>
+                    <h3>SA300 -จัดการข้อมูล รุ่นรถ</h3>
                 </div>
                 <div>
                     <span href="#" class="uk-icon-button" uk-icon="icon: arrow-right; ratio: 2"></span>
