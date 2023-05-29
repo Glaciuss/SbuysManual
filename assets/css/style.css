@@ -122,8 +122,8 @@ aside.pattern-10 {
 }
 
 aside .logo {
-    margin-bottom: 60px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
     text-decoration: none;
@@ -136,7 +136,7 @@ aside .logo .title {
 }
 
 aside .logo img {
-    width: 120px;
+    width: 80px;
 }
 
 aside .uk-nav a > img {
@@ -147,7 +147,7 @@ aside .uk-nav a > img {
 }
 
 aside .uk-nav > li > a {
-    margin-top: 10px;
+    margin-top: -8px;
 }
 
 aside .uk-nav a {
@@ -158,6 +158,7 @@ aside .uk-nav a {
 
 aside .uk-nav .uk-nav-sub a {
     opacity: 0.4;
+    margin-top: -15px;
 }
 
 aside .uk-nav .uk-nav-sub ul {

@@ -165,14 +165,14 @@
                         <li><a href="AR300.html">AR300 -ใบเพิ่มหนี้ลูกหนี้</a></li>
                     </ul>
                 </li>
-                <li class="uk-parent uk-open">
+                <li class="uk-parent">
                     <a href="#"><img src="./assets/img/menu-items/investment.png" />บัญชีแยกประเภท</a>
                     <ul class="uk-nav-sub">
                         <li><a href="GL800.html">GL800 -ผังบัญชี</a></li>
                         <li><a href="GL100.html">GL100 -บันทึกค่าใช้จ่าย</a></li>
                         <li><a href="GL200.html">GL200 -บันทึกรายการรายวัน</a></li>
                         <li><a href="GL300.html">GL300 -โอนย้ายข้อมูลใบรับมัดจำไป G/L</a></li>
-                        <li class="uk-active"><a href="GL301.html">GL301 -โอนย้ายข้อมูลการขายไป G/L</a></li>
+                        <li><a href="GL301.html">GL301 -โอนย้ายข้อมูลการขายไป G/L</a></li>
                         <li><a href="GL302.html">GL302 -โอนย้ายข้อมูลลูกหนี้ไป G/L</a></li>
                         <li><a href="GL303.html">GL303 -โอนย้ายข้อมูลรับชำระลูกหนี้ไป G/L</a></li>
                         <li><a href="GL304.html">GL304 -โอนย้ายข้อมูลเจ้าหนี้ไป G/L</a></li>
@@ -183,9 +183,14 @@
                         <li><a href="GL600.html">GL600 -ปิดงบการเงิน</a></li>
                     </ul>
                 </li>
-                <li class="uk-parent">
+                <li class="uk-parent uk-open">
                     <a href="#"><img src="./assets/img/menu-items/member.png" />พนักงาน</a>
                     <ul class="uk-nav-sub">
+                        <li><a href="EM100.html">EM100 -บันทึกเวลาทำงาน</a></li>
+                        <li><a href="EM101.html">EM101 -บันทึกเวลาพัก</a></li>
+                        <li><a href="EM200.html">EM200 -เบิกล่วงหน้า</a></li>
+                        <li class="uk-active"><a href="EM102.html">EM102 -ลาล่วงหน้า/ ลาพักร้อน</a></li>
+                        <li><a href="EM104.html">EM104 -วัน เวลาทำการของบริษัท</a></li>
                     </ul>
                 </li>
                 <li class="uk-parent">
@@ -230,9 +235,11 @@
     <section class="scrollspy uk-light">
         <!-- <h5>Links on this page</h5> -->
         <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true">
-            <li class="spy-item"><a href="#heading">การ POST ยอดขาย(Sale) ไป GL</a></li>
-            <li class="spy-item"><a href="#article-1">การ Post ข้อมูล</a></li>
-            <li class="spy-item"><a href="#article-2">การยกเลิก หรือการถอยข้อมูลการโอนเข้า G/L</a></li>
+            <li class="spy-item"><a href="#heading">หน้าหลัก</a></li>
+            <li class="spy-item"><a href="#article-1">ลาล่วงหน้า</a></li>
+            <li class="spy-item"><a href="#article-2">ลาพักร้อน</a></li>
+            <li class="spy-item"><a href="#article-3">วันหยุด</a></li>
+            <li class="spy-item"><a href="#article-4">เงื่อนไข</a></li>
 
             <li style="margin-top: 50px;"></li>
 
@@ -241,88 +248,126 @@
 
     <main class="uk-light uk-background-secondary">
         <!-- Heading Article -->
-        <h1 id="heading"><a href="#heading">การ POST ยอดขาย(Sale) ไป GL</a></h1>
+        <h1 id="heading"><a href="#heading">หน้าหลัก</a></h1>
 
-        <p>1) เปิดโปรแกรม  บัญชีแยกประเภท> (GL301)โอนย้ายข้อมูลการขายไป G/L</p>
+        <p>1) เปิดโปรแกรม พนักงาน> (EM102) ลาล่วงหน้า/ ลาพักร้อน</p>
 
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/GL301_1.png" alt="">
+                    <img src="assets/img/DocPic/EM102_1.png" alt="">
                     <p></p>
-                    <img src="assets/img/DocPic/GL301_2.png" alt="">
+                    <img src="assets/img/DocPic/EM102_2.png" alt="">
                 </div>
             </div>
         </div>
 
-        <p>2) การตั้งค่ารหัสบัญชีในการ Post ข้อมูล</p>
-        <p>   a) กดปุ่ม “ตั้งค่าบัญชี”</p>
-        <p>   b) ระบุรหัสบัญชีตามกำหนด</p>
-        <p>   c) บันทึกข้อมูล</p>
+        <p>2) กรอก Username/Password หรือ แสกนลายนิ้วมือ </p>
+        <p>3) กดปุ่ม “Login” เพื่อเข้าสู่ระบบ</p>
+
+        <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="assets/img/DocPic/EM102_3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <p>4) เมนูกดเลือก เบิกล่วงหน้า/ประวัติการเบิก/เงื่อนไข/Logout  </p>
+        <p>5) รายละเอียดของพนักงาน</p>
+        <p>6) รายละเอียด </p>
 
         <hr style="margin: 25px;">
 
         <!-- Article 1 -->
-        <h2 id="article-1"><a href="#article-1">การ Post ข้อมูล</a></h2>
+        <h2 id="article-1"><a href="#article-1">ลาล่วงหน้า</a></h2>
 
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/GL301_3.png" alt="">
+                    <img src="assets/img/DocPic/EM102_4.png" alt="">
                 </div>
             </div>
         </div>
 
-        <p>3) ระบุเงื่อนไขในการค้นหาข้อมูล</p>
-        <p>4) กดปุ่ม ค้นหา</p>
-        <p>5) คลิกเลือกข้อมูลเอกสารที่ต้องการโอนข้อมูล</p>
-        <p>6) กดปุ่ม โอนข้อมูลไป G/L</p>
+        <p>1) กดเลือก “ลาล่วงหน้า” </p>
+        <p>2) เลือกระยะเวลาลาล่วงหน้า</p>
+        <p>3) กดปุ่ม “บันทึก” </p>
+        <p>4) เลือกดูประวัติการมาทำงาน</p>
+        <p>5) ตารางแสดงประวัติการมาทำงาน</p>
 
         <hr style="margin: 25px;">
 
         <!-- Article 2 -->
-        <h2 id="article-2"><a href="#article-2">การยกเลิก หรือการถอยข้อมูลการโอนเข้า G/L</a></h2>
+        <h2 id="article-2"><a href="#article-2">ลาพักร้อน</a></h2>
 
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/GL301_4.png" alt="">
+                    <img src="assets/img/DocPic/EM102_5.png" alt="">
                 </div>
             </div>
         </div>
 
-        <p>7) กดปุ่ม ยกเลิกโอนข้อมูลไป G/L  หลังจากหน้าจะมีหน้าต่างใหม่ขึ้นมา</p>
+        <p>1) กดเลือก “ลาพักร้อน” </p>
+        <p>2) เลือกระยะเวลาลาล่วงหน้า</p>
+        <p>3) กดปุ่ม “บันทึก” </p>
+        <p>4) แสดงจำนวนวันลาพักร้อนปีปัจจุบัน</p>
+        <p>5) ตารางแสดงประวัติการลาพักร้อน</p>
+
+        <hr style="margin: 25px;">
+
+        <!-- Article 3 -->
+        <h2 id="article-3"><a href="#article-3">วันหยุด</a></h2>
 
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/GL301_5.png" alt="">
+                    <img src="assets/img/DocPic/EM102_6.png" alt="">
                 </div>
             </div>
         </div>
 
-        <p>8) ระบุเงื่อนไขในการค้นหาข้อมูล</p>
-        <p>9) กดปุ่ม ค้นหา</p>
-        <p>10) คลิกเลือกเอกสารที่ต้องการยกเลิกการโอนข้อมูล</p>
-        <p>11) กดปุ่ม ยกเลิกโอนข้อมูลไป G/L</p>
+        <p>1) กดเลือก “วันหยุด” </p>
+        <p>2) เลือกปี และงวดเพื่อค้นหา</p>
+        <p>3) วันหยุดประจำสัปดาห์ </p>
+        <p>4) วันหยุดบริษัท (วันหยุดนักขัตฤกษ์)</p>
+        <p>5) วันหยุดพนักงาน</p>
+
+        <hr style="margin: 25px;">
+
+        <!-- Article 4 -->
+        <h2 id="article-4"><a href="#article-4">เงื่อนไข</a></h2>
+
+        <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="assets/img/DocPic/EM102_7.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <p>1) กดเลือก “เงื่อนไข” > ลาล่วงหน้า/ มาสาย</p>
+        <p>2) ตารางรายละเอียดเงื่อนไขของ ลากิจ/ลาป่วย/ลาไม่แจ้งล่วงหน้า/ขาด</p>
+        <p>3) ข้อมูลโดยละเอียดของเงื่อนไขการลา</p>
 
         <hr style="margin: 25px;">
 
         <!-- Next and Prvious navigation started -->
         <div class="buttons">
-            <a class="button button-left" href="GL300.html">
+            <a class="button button-left" href="EM200.html">
                 <div>
                     <span href="#" class="uk-icon-button" uk-icon="icon: arrow-left; ratio: 2"></span>
                 </div>
                 <div>
                     <p>Previous</p>
-                    <h3>GL300 -โอนย้ายข้อมูลใบรับมัดจำไป G/L</h3>
+                    <h3>EM200 -เบิกล่วงหน้า</h3>
                 </div>
             </a>
-            <a class="button button-right" href="GL302.html">
+            <a class="button button-right" href="EM100.html">
                 <div>
                     <p>Next</p>
-                    <h3>>GL302 -โอนย้ายข้อมูลลูกหนี้ไป G/L</h3>
+                    <h3>>EM100 -บันทึกเวลาทำงาน</h3>
                 </div>
                 <div>
                     <span href="#" class="uk-icon-button" uk-icon="icon: arrow-right; ratio: 2"></span>

@@ -172,12 +172,12 @@
                         <li><a href="GL100.html">GL100 -บันทึกค่าใช้จ่าย</a></li>
                         <li><a href="GL200.html">GL200 -บันทึกรายการรายวัน</a></li>
                         <li><a href="GL300.html">GL300 -โอนย้ายข้อมูลใบรับมัดจำไป G/L</a></li>
-                        <li class="uk-active"><a href="GL301.html">GL301 -โอนย้ายข้อมูลการขายไป G/L</a></li>
+                        <li><a href="GL301.html">GL301 -โอนย้ายข้อมูลการขายไป G/L</a></li>
                         <li><a href="GL302.html">GL302 -โอนย้ายข้อมูลลูกหนี้ไป G/L</a></li>
                         <li><a href="GL303.html">GL303 -โอนย้ายข้อมูลรับชำระลูกหนี้ไป G/L</a></li>
                         <li><a href="GL304.html">GL304 -โอนย้ายข้อมูลเจ้าหนี้ไป G/L</a></li>
                         <li><a href="GL305.html">GL305 -โอนย้ายข้อมูลชำระเจ้าหนี้ไป G/L</a></li>
-                        <li><a href="GL306.html">GL306 -เคลียร์ยอดชำระบัตรเครดิต</a></li>
+                        <li class="uk-active"><a href="GL306.html">GL306 -เคลียร์ยอดชำระบัตรเครดิต</a></li>
                         <li><a href="GL307.html">GL307 -เคลียร์ยอดชำระเช็ค</a></li>
                         <li><a href="GL500.html">GL500 -บัญชีธนาคารบริษัท</a></li>
                         <li><a href="GL600.html">GL600 -ปิดงบการเงิน</a></li>
@@ -230,9 +230,10 @@
     <section class="scrollspy uk-light">
         <!-- <h5>Links on this page</h5> -->
         <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true">
-            <li class="spy-item"><a href="#heading">การ POST ยอดขาย(Sale) ไป GL</a></li>
-            <li class="spy-item"><a href="#article-1">การ Post ข้อมูล</a></li>
-            <li class="spy-item"><a href="#article-2">การยกเลิก หรือการถอยข้อมูลการโอนเข้า G/L</a></li>
+            <li class="spy-item"><a href="#heading">หน้าหลัก</a></li>
+            <li class="spy-item"><a href="#article-1">ค้นหา</a></li>
+            <li class="spy-item"><a href="#article-2">โอนข้อมูลไป G/L</a></li>
+            <li class="spy-item"><a href="#article-3">ตั้งค่าบัญชี</a></li>
 
             <li style="margin-top: 50px;"></li>
 
@@ -241,88 +242,93 @@
 
     <main class="uk-light uk-background-secondary">
         <!-- Heading Article -->
-        <h1 id="heading"><a href="#heading">การ POST ยอดขาย(Sale) ไป GL</a></h1>
+        <h1 id="heading"><a href="#heading">หน้าหลัก</a></h1>
 
-        <p>1) เปิดโปรแกรม  บัญชีแยกประเภท> (GL301)โอนย้ายข้อมูลการขายไป G/L</p>
+        <p>1) เปิดโปรแกรม บัญชีแยกประเภท> (GL306) เคลียร์ยอดชำระบัตรเครดิต</p>
 
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/GL301_1.png" alt="">
+                    <img src="assets/img/DocPic/GL306_1.png" alt="">
                     <p></p>
-                    <img src="assets/img/DocPic/GL301_2.png" alt="">
+                    <img src="assets/img/DocPic/GL306_2.png" alt="">
                 </div>
             </div>
         </div>
 
-        <p>2) การตั้งค่ารหัสบัญชีในการ Post ข้อมูล</p>
-        <p>   a) กดปุ่ม “ตั้งค่าบัญชี”</p>
-        <p>   b) ระบุรหัสบัญชีตามกำหนด</p>
-        <p>   c) บันทึกข้อมูล</p>
+        <p>2) แถบเมนูค้นหาเคลียร์ยอดชำระบัตรเครดิต</p>
+        <p>3) ปุ่มคำสั่ง ค้นหา/ ตั้งค่าบัญชี</p>
+        <p>4) ตารางข้อมูลแสดงเคลียร์ยอดชำระบัตรเครดิต</p>
+        <p>5) ปุ่มคำสั่ง โอนข้อมูลไป G/L/ ยกเลิกโอนข้อมูลไป G/L</p>
 
         <hr style="margin: 25px;">
 
         <!-- Article 1 -->
-        <h2 id="article-1"><a href="#article-1">การ Post ข้อมูล</a></h2>
+        <h2 id="article-1"><a href="#article-1">ค้นหา</a></h2>
 
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/GL301_3.png" alt="">
+                    <img src="assets/img/DocPic/GL306_3.png" alt="">
                 </div>
             </div>
         </div>
 
-        <p>3) ระบุเงื่อนไขในการค้นหาข้อมูล</p>
-        <p>4) กดปุ่ม ค้นหา</p>
-        <p>5) คลิกเลือกข้อมูลเอกสารที่ต้องการโอนข้อมูล</p>
-        <p>6) กดปุ่ม โอนข้อมูลไป G/L</p>
+        <p>1) กำหนดขอบเขตของการค้นหา</p>
+        <p>2) กดปุ่ม “ค้นหา [F5]”</p>
+        <p>3) ตารางข้อมูลแสดงเอกสารโอนย้ายข้อมูลชำระเจ้าหนี้ไป G/L</p>
 
         <hr style="margin: 25px;">
 
         <!-- Article 2 -->
-        <h2 id="article-2"><a href="#article-2">การยกเลิก หรือการถอยข้อมูลการโอนเข้า G/L</a></h2>
+        <h2 id="article-2"><a href="#article-2">โอนข้อมูลไป G/L</a></h2>
 
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/GL301_4.png" alt="">
+                    <img src="assets/img/DocPic/GL306_4.png" alt="">
                 </div>
             </div>
         </div>
 
-        <p>7) กดปุ่ม ยกเลิกโอนข้อมูลไป G/L  หลังจากหน้าจะมีหน้าต่างใหม่ขึ้นมา</p>
+        <p>1) กดเลือกเอกสาร</p>
+        <p>2) กดปุ่ม “โอนข้อมูลไป G/L”</p>
+        <p>3) กดปุ่ม “OK”</p>
+
+        <hr style="margin: 25px;">
+
+        <!-- Article 3 -->
+        <h2 id="article-3"><a href="#article-3">ตั้งค่าบัญชี</a></h2>
 
         <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
             <div class="uk-text-center">
                 <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
-                    <img src="assets/img/DocPic/GL301_5.png" alt="">
+                    <img src="assets/img/DocPic/GL306_5.png" alt="">
                 </div>
             </div>
         </div>
 
-        <p>8) ระบุเงื่อนไขในการค้นหาข้อมูล</p>
-        <p>9) กดปุ่ม ค้นหา</p>
-        <p>10) คลิกเลือกเอกสารที่ต้องการยกเลิกการโอนข้อมูล</p>
-        <p>11) กดปุ่ม ยกเลิกโอนข้อมูลไป G/L</p>
+        <p>1) กดปุ่ม “ตั้งค่าบัญชี”</p>
+        <p>2) กดค้นหาเพื่อเลือกบัญชี</p>
+        <p>3) กดปุ่ม “Save”</p>
 
         <hr style="margin: 25px;">
 
         <!-- Next and Prvious navigation started -->
         <div class="buttons">
-            <a class="button button-left" href="GL300.html">
+            <a class="button button-left" href="GL305.html">
                 <div>
                     <span href="#" class="uk-icon-button" uk-icon="icon: arrow-left; ratio: 2"></span>
                 </div>
                 <div>
                     <p>Previous</p>
-                    <h3>GL300 -โอนย้ายข้อมูลใบรับมัดจำไป G/L</h3>
+                    <h3>GL305 -โอนย้ายข้อมูลชำระเจ้าหนี้ไป G/L</h3>
                 </div>
             </a>
-            <a class="button button-right" href="GL302.html">
+            <a class="button button-right" href="GL307.html">
                 <div>
                     <p>Next</p>
-                    <h3>>GL302 -โอนย้ายข้อมูลลูกหนี้ไป G/L</h3>
+                    <h3>>GL307 -เคลียร์ยอดชำระเช็ค</h3>
                 </div>
                 <div>
                     <span href="#" class="uk-icon-button" uk-icon="icon: arrow-right; ratio: 2"></span>
