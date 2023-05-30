@@ -18,7 +18,8 @@
             <a href="MS001.html">Program</a>
             <a href="SA905.html">Report</a>
             <a href="index.html">PCT</a>
-</div>
+            <!-- Dropdown link started -->
+        </div>
         <!-- Header links ended -->
 
         <!-- Search started -->
@@ -28,7 +29,7 @@
                 <span class="uk-search-icon-flip" uk-search-icon></span>
                 <input class="uk-search-input" type="search" placeholder="Search...">
             </form>
-
+    
             <!-- Search result started -->
             <div class="search-result">
                 <div>
@@ -45,13 +46,12 @@
 
         <!-- Right side hamburger menu used, only visible in small screens -->
         <a class="btn-right-menu" uk-icon="more-vertical"></a>
-        <div uk-dropdown="mode: click; pos: bottom-right">
+        <div uk-dropdown="mode: click; pos: bottom-right" class="uk-background-secondary uk-light">
             <ul class="uk-nav uk-dropdown-nav main-menu-items"></ul>
         </div>
     </header>
     <!-- Top header ended -->
 
-    <!-- Left sidebar started -->
     <aside class="dark">
         <a href="index.html" class="logo">
             <img src="./assets/img/Sbuys-icon-17.png" />
@@ -183,7 +183,7 @@
                         <li><a href="GL600.html">GL600 -ปิดงบการเงิน</a></li>
                     </ul>
                 </li>
-                <li class="uk-parent">
+                <li class="uk-parent uk-open">
                     <a href="#"><img src="./assets/img/menu-items/member.png" />พนักงาน</a>
                     <ul class="uk-nav-sub">
                         <li><a href="EM100.html">EM100 -บันทึกเวลาทำงาน</a></li>
@@ -192,7 +192,7 @@
                         <li><a href="EM102.html">EM102 -ลาล่วงหน้า/ ลาพักร้อน</a></li>
                         <li><a href="EM104.html">EM104 -วัน เวลาทำการของบริษัท</a></li>
                         <li><a href="EM300.html">EM300 -ประวัติส่วนตัว</a></li>
-                        <li><a href="EM500.html">EM500 -สรุปเงินเดือน</a></li>
+                        <li class="uk-active"><a href="EM500.html">EM500 -สรุปเงินเดือน</a></li>
                         <li><a href="EM600.html">EM600 -รายชื่อพนักงาน</a></li>
                         <li><a href="HR200.html">HR200 -สมัครงาน</a></li>
                     </ul>
@@ -200,9 +200,6 @@
                 <li class="uk-parent">
                     <a href="#"><img src="./assets/img/menu-items/manager.png" />บุคคล</a>
                     <ul class="uk-nav-sub">
-                        <li><a href="HR001.html">HR001 -กำหนดเวลาทำงาน</a></li>
-                        <li><a href="HR100.html">HR100 -กำหนดเงื่อนไขและเวลาทำการแต่ละบริษัท</a></li>
-                        <li><a href="HR101.html">HR101 -กำหนดวันหยุด</a></li>
                     </ul>
                 </li>
                 <li class="uk-parent">
@@ -229,35 +226,108 @@
                 <li>
                     <a href="index.html"><img src="./assets/img/menu-items/home.png" />PCT</a>
                 </li>
-
             </ul>
         </div>
         <!-- Sidebar top section navigation ended -->
     </aside>
     <!-- Left sidebar ended -->
-    
+
+    <div class="menu-btn-scrollspy">
+        Links on this page
+    </div>
+
+    <section class="scrollspy uk-light">
+        <!-- <h5>Links on this page</h5> -->
+        <ul class="uk-nav uk-nav-default" uk-scrollspy-nav="closest: li; scroll: true">
+            <li class="spy-item"><a href="#heading">หน้าหลัก</a></li>
+            <li class="spy-item"><a href="#article-1">สรุปเงินเดือน</a></li>
+            <li class="spy-item"><a href="#article-2">การมาทำงาน</a></li>
+
+            <li style="margin-top: 50px;"></li>
+
+        </ul>
+    </section>
+
     <main class="uk-light uk-background-secondary">
-        <p>Sbuys Manual</p>
-        <hr>
-        <p>PCT Software / Documentation Version 1.0</p>
+        <!-- Heading Article -->
+        <h1 id="heading"><a href="#heading">หน้าหลัก</a></h1>
 
-        <div class="uk-margin-large-top"></div>
+        <p>1) เปิดโปรแกรม พนักงาน> (EM500) สรุปเงินเดือน</p>
 
-        <p>Introduction</p>
-        <hr>
-        <p><strong>Documentation Name : </strong>Sbuys Manual</p>
+        <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="assets/img/DocPic/EM500_1.png" alt="">
+                    <p></p>
+                    <img src="assets/img/DocPic/EM500_2.png" alt="">
+                </div>
+            </div>
+        </div>
 
-        <div class="uk-margin-large-top"></div>
+        <p>2) กรอก Username/Password ให้ถูกต้อง หรือ สแกนลายนิ้วมือ</p>
+        <p>3) กดปุ่ม “เข้าสู่ระบบ”</p>
 
-        <p>Link Official</p>
-        <hr>
-        <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
-        <a href="http://www.youtube.com" class="uk-icon-button" uk-icon="youtube"></a>
+        <hr style="margin: 25px;">
 
-        <div class="uk-margin-large-top"></div>
+        <!-- Article 1 -->
+        <h2 id="article-1"><a href="#article-1">สรุปเงินเดือน</a></h2>
 
+        <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="assets/img/DocPic/EM500_3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <p>1) กดปุ่ม “สรุปเงินเดือน”</p>
+        <p>2) กดเลือกข้อมูลค่าจ้างปัจจุบัน แสดงรายละเอียดค่าจ้าง</p>
+        <p>3) กดเลือกปีเพื่อค้นหารายการ</p>
+        <p>4) ตาราง สรุปเงินเดือน/เบี้ย/ประกันสังคม/เบิกล่วงหน้า/รายรับ/รายจ่าย/เงินสะสม</p>
+
+        <hr style="margin: 25px;">
+
+        <!-- Article 2 -->
+        <h2 id="article-2"><a href="#article-2">การมาทำงาน</a></h2>
+
+        <div class="uk-child-width-1-2 uk-child-width-1-2@s uk-grid-match uk-grid-small" uk-grid>
+            <div class="uk-text-center">
+                <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                    <img src="assets/img/DocPic/EM500_4.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <p>1) กดปุ่ม “การมาทำงาน”</p>
+        <p>2) กดเลือกสรุปการมาทำงาน/รายละเอียดการทำงาน/วันหยุด</p>
+        <p>3) ตารางแสดงรายละเอียด</p>
+
+        <hr style="margin: 25px;">
+
+        <!-- Next and Prvious navigation started -->
+        <div class="buttons">
+            <a class="button button-left" href="EM300.html">
+                <div>
+                    <span href="#" class="uk-icon-button" uk-icon="icon: arrow-left; ratio: 2"></span>
+                </div>
+                <div>
+                    <p>Previous</p>
+                    <h3>EM300 -ประวัติส่วนตัว</h3>
+                </div>
+            </a>
+            <a class="button button-right" href="EM600.html">
+                <div>
+                    <p>Next</p>
+                    <h3>>EM600 -รายชื่อพนักงาน</h3>
+                </div>
+                <div>
+                    <span href="#" class="uk-icon-button" uk-icon="icon: arrow-right; ratio: 2"></span>
+                </div>
+            </a>
+        </div>
+        <!-- Next and Prvious navigation ended -->
     </main>
-    
+
     <script src="./assets/js/bundle.min.js"></script>
     <script src="./assets/js/scripts.js"></script>
 </body>
