@@ -70,6 +70,19 @@ main > p, .normal-text p {
     padding-right: 350px;
 }
 
+.responsive {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+  }
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    max-width: 560px;
+    max-height: 315px;
+  }
+
 aside {
     width: 350px;
     min-width: 300px;
